@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "build": "npm install"
   },
   "author": "Joao Vitor Topanotti da Cunha",
   "license": "ISC",
