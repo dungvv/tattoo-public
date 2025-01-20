@@ -1,0 +1,47 @@
+.gradient-bg {
+  background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82) 0 0 / 300% 300%;
+  animation: 3s infinite alternate animatedgradient-dac6691e;
+}
+
+.gradient-text {
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82) 0 0 / 300% 300%;
+  -webkit-background-clip: text;
+  animation: 3s infinite alternate animatedgradient-dac6691a;
+  display: inline-block;
+}
+
+.hidden {
+  display: none;
+}
+
+.purple-bg {
+  color: #fff;
+  background-color: #3f2a54;
+  box-shadow: 0 0 10px #fff;
+}
+
+.less-purple-bg {
+  background-color: #342544;
+}
+
+@keyframes animatedgradient-dac6691e {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 100% 100%;
+  }
+}
+
+@keyframes animatedgradient-dac6691a {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 100% 100%;
+  }
+}
+/*# sourceMappingURL=index.2cdaf7bc.css.map */
